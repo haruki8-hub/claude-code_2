@@ -15,3 +15,7 @@ The contact form opens the visitor's email app addressed to bkelly@service-due.c
 
 ## Photo credits (Unsplash licence: free for commercial use)
 `images/stock-*.jpg` are from Unsplash: Kate Ibragimova (mechanic-engine), Christian Buehner (wrench-hands), Toby Hall (brake-rotor), Karen Chew (hobart), Panagiotis Falcos (customer-phone), Alex Gorin (battery), Philipp Katzenberger (aircon), Kenny Perez (ute), Tim Mossholder (oil). All other photos are the client's own.
+
+## Before launch
+- Connect the quote/enquiry forms to a form service (e.g. Formspree or Web3Forms) so enquiries are emailed automatically; the demo uses a mailto fallback.
+- Confirm suburbs, FAQ answers and copy with the client; swap in the real logo.
