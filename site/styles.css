@@ -14,7 +14,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
-  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
   color: var(--ink);
   background: var(--white);
   line-height: 1.6;
@@ -24,7 +24,7 @@ img { max-width: 100%; display: block; }
 a { color: inherit; }
 
 h1, h2, h3, .brand, .btn, .eyebrow {
-  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-family: "Teko", "Arial Narrow", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.01em;
 }
@@ -45,7 +45,7 @@ section { padding: 80px 0; }
 .topbar { background: var(--black); color: var(--white); font-size: 0.9rem; }
 .topbar .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-top: 8px; padding-bottom: 8px; flex-wrap: wrap; }
 .topbar a { text-decoration: none; font-weight: 600; }
-.topbar .tags { color: var(--orange); font-family: "Barlow Condensed", sans-serif; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; }
+.topbar .tags { color: var(--orange); font-family: "Teko", sans-serif; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; }
 
 /* Header */
 header.site { background: var(--white); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
@@ -101,7 +101,7 @@ nav.main a:hover, nav.main a[aria-current="page"] { color: var(--orange); }
 .usp { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; background: var(--orange); color: var(--white); }
 .usp div { padding: 26px 20px; text-align: center; border-right: 1px solid rgba(255,255,255,0.3); }
 .usp div:last-child { border-right: 0; }
-.usp strong { display: block; font-family: "Barlow Condensed", sans-serif; text-transform: uppercase; font-style: italic; font-size: 1.8rem; line-height: 1; }
+.usp strong { display: block; font-family: "Teko", sans-serif; text-transform: uppercase; font-style: italic; font-size: 1.8rem; line-height: 1; }
 .usp span { font-size: 0.95rem; }
 
 .checks { list-style: none; margin-top: 18px; }
@@ -110,9 +110,9 @@ nav.main a:hover, nav.main a[aria-current="page"] { color: var(--orange); }
 
 .steps { counter-reset: step; }
 .steps .card { position: relative; padding-top: 44px; }
-.steps .card::before { counter-increment: step; content: counter(step); position: absolute; top: -20px; left: 28px; width: 44px; height: 44px; border-radius: 50%; background: var(--orange); color: var(--white); font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 1.5rem; display: grid; place-items: center; }
+.steps .card::before { counter-increment: step; content: counter(step); position: absolute; top: -20px; left: 28px; width: 44px; height: 44px; border-radius: 50%; background: var(--orange); color: var(--white); font-family: "Teko", sans-serif; font-weight: 800; font-size: 1.5rem; display: grid; place-items: center; }
 
-.stat { font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-style: italic; font-size: 5rem; line-height: 0.9; color: var(--orange); }
+.stat { font-family: "Teko", sans-serif; font-weight: 800; font-style: italic; font-size: 5rem; line-height: 0.9; color: var(--orange); }
 
 .gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 .gallery .photo { aspect-ratio: 1; }
@@ -152,7 +152,7 @@ form.booking .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 /* Footer */
 footer.site { background: var(--black); color: #bdbdbd; padding: 56px 0 28px; font-size: 0.95rem; }
 footer.site .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 32px; }
-footer.site h4 { color: var(--white); font-family: "Barlow Condensed", sans-serif; text-transform: uppercase; font-size: 1.2rem; margin-bottom: 12px; letter-spacing: 0.05em; }
+footer.site h4 { color: var(--white); font-family: "Teko", sans-serif; text-transform: uppercase; font-size: 1.2rem; margin-bottom: 12px; letter-spacing: 0.05em; }
 footer.site ul { list-style: none; }
 footer.site li { margin-bottom: 6px; }
 footer.site a { text-decoration: none; }
@@ -205,7 +205,7 @@ footer.site .legal { border-top: 1px solid #2c2c2c; margin-top: 36px; padding-to
 .trust { background: var(--ink); color: var(--white); }
 .trust .wrap { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding-top: 22px; padding-bottom: 22px; }
 .trust div { display: flex; gap: 12px; align-items: center; font-size: 0.92rem; line-height: 1.3; }
-.trust strong { display: block; font-family: "Barlow Condensed", sans-serif; text-transform: uppercase; font-size: 1.25rem; color: var(--orange); }
+.trust strong { display: block; font-family: "Teko", sans-serif; text-transform: uppercase; font-size: 1.25rem; color: var(--orange); }
 .trust svg { width: 30px; height: 30px; color: var(--orange); flex: 0 0 30px; }
 .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
 .chips span { background: var(--white); border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; font-weight: 600; font-size: 0.95rem; }
@@ -227,7 +227,7 @@ details.faq p { color: var(--muted); margin-top: 10px; }
 }
 @media (max-width: 720px) {
   .mobile-bar { display: grid; grid-template-columns: 1fr 1fr; position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; box-shadow: 0 -6px 20px rgba(0,0,0,0.2); }
-  .mobile-bar a { text-align: center; padding: 15px 8px; font-family: "Barlow Condensed", sans-serif; text-transform: uppercase; font-weight: 800; font-size: 1.15rem; text-decoration: none; color: var(--white); }
+  .mobile-bar a { text-align: center; padding: 15px 8px; font-family: "Teko", sans-serif; text-transform: uppercase; font-weight: 800; font-size: 1.15rem; text-decoration: none; color: var(--white); }
   .mobile-bar a:first-child { background: var(--black); }
   .mobile-bar a:last-child { background: var(--orange); }
   body { padding-bottom: 56px; }
